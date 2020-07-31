@@ -22,7 +22,7 @@ function setup() {
 	World.add(world,ground);
 
 	Engine.run(engine);  
-	
+}
 
 
 function draw() {
