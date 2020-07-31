@@ -22,12 +22,7 @@ function setup() {
 	World.add(world,ground);
 
 	Engine.run(engine);  
-	let render = Render.create({
-		engine: engine,
-		element: document.body
-	});
-	Render.run(render);
-}
+	
 
 
 function draw() {
